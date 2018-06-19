@@ -1,6 +1,6 @@
 {
   "scripts": {
-    "start": "nodemon --watch 'src/**/*' --exec 'ts-node' src/tscwm.ts"
+    "start": "nodemon --watch 'src/**/*' --exec 'ts-node' src/fruitwm.ts"
   },
   "dependencies": {
     "keysym": "^0.0.6",
