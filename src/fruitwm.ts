@@ -409,7 +409,7 @@ x11
       unmanageWindow(event.wid);
     } else if (event.name === 'ConfigureRequest' && event.child !== 0) {
       X.ResizeWindow(event.wid, event.width, event.height);
-    } else if (event.name === 'KeyPress' && event.child !== 0) {
+    } else if (event.name === 'KeyPress') {
       keyPressHandler(event);
     } else if (event.name === 'ButtonPress' && event.child !== 0) {
       X.RaiseWindow(event.child);
